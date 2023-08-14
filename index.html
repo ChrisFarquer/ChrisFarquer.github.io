@@ -11,7 +11,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	
 	<body class="is-preload">
+
+		<script>
+			function darkTheme() {
+				var element = document.body;
+				element.classList.toggle("dark-mode");
+			}
+			
+			function trackCVDownload() {
+				gtag("event", "cv_download");
+			}
+		</script>
 
 		<!-- Header -->
 			<header id="header">
